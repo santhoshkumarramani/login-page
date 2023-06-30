@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    padding: 60px 0px 0px 356px;
+    font-family: sans-serif;
+}
+#container{
+	display:flex;
+	width: 600px;
+    height: 450px;
+	position: relative;
+	box-shadow: 0px 0px 10px 10px #f1f1f1;
+    border-radius: 10px;
+	overflow:hidden;
+			
+}
+
+.image img{
+	width: 227px;
+    height: 450px;
+	object-fit: cover;
+	object-position: left;
+}
+.image span{
+	position: absolute;
+    left: 53px;
+    top: 18px;
+    font-size: 53px;
+    color: white;
+}
+
+.head1 h1{
+    padding: 40px;
+    color: #a09f9f;
+    font-size: 25px;
+	position: absolute;
+}
+.head1 p{
+	position: absolute;
+    padding: 100px 40px;
+    color: #808184;
+    font-size: 14px;
+    width: 300px;
+}
+
+span.side{
+	color:black;
+	font-size:30px;
+}
+.text{
+    position: absolute;
+    left: 19em;
+    top: 12em;
+}
+.text1 span{
+    font-size: 35px;
+    position: absolute;
+    margin-left: -34px;
+    margin-top: 14px;
+   color: rgb(211 211 211 / 78%);
+}
+.text2 input{
+	font-size: 18px;
+    width: 15em;
+    border: none;
+    padding: 1em 0;
+    outline: none;
+    border-bottom: 2px solid rgb(246,246,246);
+	margin: 3px 0px 0px 11px;
+}
+
+.material-symbols-outlined{
+	font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+	margin-left:-31px;	
+}
+
+.btn button {
+    margin: 337px 0px 0px 204px;
+    padding: 15px 40px;
+    background-color: rgb(176,138,247);
+	border-radius: 24px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgb(235,220,254);
+    cursor: pointer;
+}
+.version{
+	position:absolute;
+	left: 476px;
+    top: 410px;
+}
+.version a{
+	color:gray;
+}
